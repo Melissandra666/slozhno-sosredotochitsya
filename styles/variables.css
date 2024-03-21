@@ -1,3 +1,7 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
 .root {
   --main-text-color: #F1B2CE;
   --title-color: #DB00FF;
@@ -12,3 +16,13 @@
   --title-text-color: var(--background-color);
   --text-shadow: var(--accent-color);
 }
+
+:root {
+  --font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
+
+@media (375px <= width < 768px) {
+  :root {
+    --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+} 
