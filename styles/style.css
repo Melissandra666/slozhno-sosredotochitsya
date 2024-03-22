@@ -133,6 +133,7 @@
   top: 22px;
   font-size: 18px;
   font-family: 'IBM Plex Mono', sans-serif;
+  visibility: var(--rec-decor);
 }
 
 @media (375px <= width < 768px) {
@@ -185,7 +186,6 @@
 
 @media (375px <= width < 768px) {
   .header__subtitle-container {
-    align-self: center;
     width: 100%;
   }
 }
@@ -222,7 +222,6 @@
 
 @media (375px <= width < 768px) {
   .section {
-    display: flex;
     flex-direction: column;
     gap: 0;
   }
@@ -262,6 +261,10 @@
 
 .section__article-title {
   margin-bottom: 10px;
+}
+
+.section__article-text {
+  margin-top: 10px;
 }
 
 .link {
