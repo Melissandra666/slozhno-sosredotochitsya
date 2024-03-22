@@ -15,6 +15,7 @@
   --border-button: 1px solid var(--button-text-color);
   --title-text-color: var(--background-color);
   --text-shadow: var(--accent-color);
+  --rec-decor: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,5 +32,6 @@
     --border-button: 1px solid var(--button-text-color);
     --title-text-color: var(--background-color);
     --text-shadow: var(--accent-color);
+    --rec-decor: hidden;
   }
 }
