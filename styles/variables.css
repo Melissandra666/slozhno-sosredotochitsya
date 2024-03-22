@@ -11,6 +11,7 @@
   --border-button: 1px solid var(--accent-color);
   --title-text-color: var(--background-color);
   --text-shadow: var(--accent-color);
+  --rec-decor: visible;
 }
 
 :root {
